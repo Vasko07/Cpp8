@@ -24,6 +24,7 @@ class Span {
 private:
     unsigned int max_size;
     std::vector<int> numbers;
+    Span();
 
 public:
     // Constructor
